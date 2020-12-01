@@ -1,0 +1,91 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_bold.woff);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 100%;
+  }
+div{
+	margin-top: 5px;
+	
+	
+}
+
+p{	
+	margin: auto;
+    font-family: myFirstFont;
+	font-size: 40px;
+	transition: width 2s, height 2s, transform 2s;
+}
+p:hover{
+	font-family: Verdana;
+	font-size: 60px;
+}
+
+.A{
+    width: 100px;
+	height: 100px;
+    text-align: center;
+	background-image:linear-gradient(45deg, red, yellow);
+	animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-name: anime;
+  }
+
+.B{
+	width: 100px;
+	height: 100px;
+    text-align: center;
+	background-image:linear-gradient(45deg, yellow, red);
+	box-shadow: 10px 10px 5px grey;
+	
+}
+
+.F{
+	width: 100px;
+	height: 100px;
+    text-align: center;
+	vertical-align: middle;
+	background-image:linear-gradient(45deg, yellow, red);
+	box-shadow: 10px 10px 5px grey;
+  }
+  
+  @keyframes anime{
+0% {
+    transform: rotate(0deg);
+}
+20% {
+    transform: rotate(30deg);
+	background: yellow;
+}
+40% {
+    transform: rotate(0deg);
+	background: orange;
+}
+60% {
+    transform: rotate(-30deg);
+	background: #e34317;
+}
+80% {
+    transform: rotate(0deg);
+	background: #e33217;
+}
+100% {
+    transform: rotate(-360deg);
+	background: red;
+  }}
+  
+  
+
+
+  
+
