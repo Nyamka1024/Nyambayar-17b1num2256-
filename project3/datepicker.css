@@ -1,0 +1,28 @@
+.selectdate {
+    font-weight: bold;
+    background-color: yellow;
+}
+
+.inactivedate {
+    color: darkgray;
+}
+
+.prevmonthbutton {
+    font-weight: bold;
+    float: left;
+}
+
+.nextmonthbutton {
+    font-weight: bold;
+    float: right;
+}
+
+.datepickertable {
+    text-align: center;
+    border: ridge 5px;
+}
+
+.datepickerheader {
+    font-weight: bold;
+    text-align: center;
+}
