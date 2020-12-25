@@ -1,9 +1,9 @@
 import React from 'react';
 import {
-    List,
+    //List,
     ListItem,
     ListItemText,
-    Typography,
+    //Typography,
 } from '@material-ui/core';
 import './UserPhotos.css';
 
